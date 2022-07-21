@@ -13,21 +13,19 @@ import Skills from './containers/skills/Skills';
 import particlesconfig from './helpers/particlesconfig';
 
 function App() {
-  {
-    /*const ParticlesInit = async (main) => {
+  const ParticlesInit = async (main) => {
     await loadFull(main);
   };
 
   const location = useLocation();
 
-  const ParticlesBackground = location.pathname === '/'; */
-  }
+  const ParticlesBackground = location.pathname === '/'; 
 
   return (
     <>
       <div className="App">
         {/*particle js*/}
-        {/* <div className="ts">
+        <div className="ts">
           {ParticlesBackground && (
             <Particles
               id="particles"
@@ -35,7 +33,7 @@ function App() {
               init={ParticlesInit}
             />
           )}
-        </div>*/}
+        </div>
 
         {/*navbar components*/}
 

@@ -33,7 +33,7 @@ const Skills = () => {
                   <AnimateKeyframes
                     play
                     duration={1}
-                    delay={0.5}
+                    delay={0}
                     keyframes={['opacity :1', 'opacity:0']}
                     iterationCount={1}
                   >

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FaReact, FaBars } from 'react-icons/fa';
+import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
 import { navMenus } from './config';
 import './Navbar.scss';
+import Mysvg from '../../helpers/Svg';
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -15,7 +16,8 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar__container">
         <Link to={'/'} className="navbar__container__logo">
-          <FaReact size={30} />
+          {/* <FaReact size={30} />*/}
+          <Mysvg />
         </Link>
         <ul
           className={

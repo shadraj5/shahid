@@ -27,11 +27,11 @@ const About = () => {
           >
             <h3 className="developercontent">Front End Developer</h3>
             <p>
-              Seasoned and independent Web Developer with 4 months of experience
-              in blending the art of design with skill of programming to deliver
-              an immersive and engaging user experience through efficient
-              website development, proactive feature optimization, and
-              relentless debugging.
+              Seasoned and independent Web Developer with 2 years of experience,
+              Quick learner, skilled in ReactJS, state management tools along
+              with PHP, SQL, mongoDB etc. Looking for opportunities where I can
+              fully utilize my skills and grow while adding value to the
+              company.
               <br />
               <br />
               IT Administrator with 7 years of experience in Seder Group in

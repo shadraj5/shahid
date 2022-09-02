@@ -19,6 +19,10 @@ export const skillsData = [
         percentage: '60'
       },
       {
+        skillName: 'PHP',
+        percentage: '50'
+      },
+      {
         skillName: 'BOOTSTRAP',
         percentage: '65'
       },
@@ -33,7 +37,7 @@ export const skillsData = [
     label: 'DATABASES',
     data: [
       {
-        skillName: 'SQLserver',
+        skillName: 'SQL',
         percentage: '50'
       },
       {

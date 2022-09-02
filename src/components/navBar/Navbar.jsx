@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="navbar__container">
         <Link to={'/'} className="navbar__container__logo">
           {/* <FaReact size={30} />*/}
-          <Mysvg />
+          <Mysvg size={30} />
         </Link>
         <ul
           className={

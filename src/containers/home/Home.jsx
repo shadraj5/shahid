@@ -3,7 +3,7 @@ import './Home.scss';
 import { Animate } from 'react-simple-animate';
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-import pdf from './WebDeveloper.pdf';
+import pdf from './MohammadRaza.pdf';
 
 const Home = () => {
   return (
